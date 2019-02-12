@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.header {
+  display: flex;
+  padding: 0.5rem 1rem;
+}
+
+.header__img {
+  width: 15%;
+}
+
+.header__img img {
+  width: 60%;
+  padding: 1rem;
+  padding-left: 1rem;
+}
+
+.header__text {
+  width: 70%;
+  font-size: 1.6rem;
+  padding-right: 1rem;
+  line-height: 1.6;
+}
+
+.header__text--title {
+  display: flex;
+  padding: 1rem 0;
+  align-items: baseline;
+}
+.header__text--title h1 {
+  font-size: 2rem;
+}
+.header__text--title ul {
+  display: flex;
+  list-style: none;
+}
